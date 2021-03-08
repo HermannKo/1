@@ -1,0 +1,488 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1062px;
+}
+
+.header-section {
+    align-items: center;
+    background-color: black;
+    font-family: 'Roboto', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    line-height: 140%;
+}
+
+.decoration {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.content-section {
+    background-image: url(/assets/img/bg-image.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.promo-title {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    padding-top: 125px;
+    font-size: 64px;
+    letter-spacing: 4.5px;
+    line-height: 23px;
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: 'Roboto', 'Arial', 'Times New Roman', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.button-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 170px;
+    padding-top: 173px;
+    padding-bottom: 112px;
+}
+
+.mail:hover {
+    cursor: pointer;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.disk:hover {
+    cursor: pointer;
+}
+
+.youtube:hover {
+    cursor: pointer;
+}
+
+.rappresent-promo {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 24px;
+    color: #373737;
+    text-transform: uppercase;
+    display: flex;
+    line-height: 28px;
+    justify-content: flex-start;
+    padding-left: 269px;
+    padding-top: 295px;
+}
+
+.rappresent-about {
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 140%;
+    padding-left: 269px;
+    padding-top: 12px;
+}
+
+.rappresent-button {
+    margin-left: 269px;
+    margin-top: 12px;
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 314px;
+}
+
+.rappresent-button:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.rappresent-content-section {
+    display: flex;
+    height: 862px;
+}
+
+.rappresent-image {
+    padding-top: 120px;
+    padding-left: 248px;
+}
+
+.our-community-section {
+    align-items: center;
+    height: 504px;
+    background-color: #F5F6F7;
+    display: flex;
+    padding-left: 269px;
+    justify-content: space-between;
+}
+
+.promo-ourcom {
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 16px;
+    color: #373737;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.ourcom-about {
+    font-family: 'Roboto Light', 'Arial', 'Times New Roman', sans-serif;
+    color: #4E4E4E;
+    font-size: 14px;
+    text-align: center;
+    line-height: 140%;
+    max-width: 298px;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 298px;
+}
+
+.slider-img {
+    display: flex;
+    overflow: scroll;
+    max-width: 894px;
+    padding-left: 60px;
+}
+
+.slider-item-2 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.implement-section {
+    display: flex;
+    max-height: 842px;
+    background-color: #fff;
+    justify-content: space-evenly;
+}
+
+.implement-img {
+   padding-top: 120px;
+   padding-bottom: 140px;
+   padding-left: 80px;
+}
+
+.text-implement {
+    text-align: left;
+    padding-top: 319px;
+}
+
+.promo-implement {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #373737;
+    letter-spacing: 1px;
+}
+
+.implement-about {
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 140%;
+}
+
+.implement-button {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.implement-button:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.sign-up-section {
+    background-image: url(/assets/img/pexels-christina-morillo-1181675\ 1.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.invitation {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.email-ok {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    border: none;
+    height:35px;
+    position: absolute;
+    left: 560px;
+}
+
+.ok {
+    background-color:#00AFDB;
+    color:#fff;
+    border: none;
+    padding-top: 8.27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10.68px;
+    position: relative;
+    left: 175px;
+}
+
+.ok:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.download-section {
+    background-color: #F5F6F7;
+    height: 464px;
+}
+
+.appeal {
+    display: flex;
+    justify-content: center;
+    color: #373737;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.appeal-about {
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 180px;
+    padding-top: 15px;
+}
+
+.apple {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: absolute;
+    left: 560px;
+}
+
+.android {
+    font-family: 'Roboto Bold', 'Arial', 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 35px;
+    position: absolute;
+    left: 740px;
+}
+
+.android:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.apple:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+.apple-img {
+    background-color: #009CC2;
+    padding-top: 13.5px;
+    position: relative;
+    right: 22px;
+    padding-bottom: 11.8px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.android-img {
+    background-color: #009CC2;
+    padding-top: 12.47px;
+    padding-bottom: 10.4px;
+    position: relative;
+    left: 142px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+.android-img:hover {
+    cursor: pointer;
+    background-color: #00AFDB;
+}
+
+.apple-img:hover {
+    cursor: pointer;
+    background-color: #00AFDB;
+}
+
+.info {
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    padding-left: 160px;
+}
+
+footer {
+    background-color: #000;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.author {
+    color:#4E4E4E;
+    font-family: 'Roboto Regular', 'Arial', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    padding-right: 160px;
+}
+
+.credits {
+    padding-right: 20px;
+}
+
+.credits:hover {
+    cursor: pointer;
+    background-color: #4E4E4E;
+}
+
+.divider-1 {
+    padding-right: 20px;
+}
+
+.privacy {
+    padding-right: 20px;
+}
+
+.privacy:hover {
+    cursor: pointer;
+    background-color: #4E4E4E;
+}
+
+.divider-2 {
+    padding-right: 20px;
+}
+
+.our-teams:hover {
+    cursor: pointer;
+    background-color: #4E4E4E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
